@@ -18,7 +18,7 @@ function fullScreenCapture{
 			$audio -> use alternative device name obtained with: ffmpeg -list_devices true -f dshow -i dummy			
 			
 	.EXAMPLE
-	        fullScreenCapture -outFolder 'C:\Users\E057805\Desktop'
+	        fullScreenCapture -outFolder 'C:\Users\.....\Desktop'
 #>
 
 	[CmdletBinding()]
